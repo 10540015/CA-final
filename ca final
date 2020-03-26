@@ -31,3 +31,8 @@ if total<=5:
         disc=0.2 * total
     else:
          disc=0.3 * total
+
+    print("Discount : ",disc)
+    print("Net Pay  : ",total-disc)
+else:
+    print("Invalid Amount")
