@@ -19,3 +19,7 @@ prices = {"banana":4,
                     total = total + prices[item_stock] 
                     
     return total
+food = ['banana', 'apple', 'orange', 'pear']
+total =  compute_bill(shopping_list)
+print(total)
+if(total>0):
