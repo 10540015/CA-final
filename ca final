@@ -23,3 +23,7 @@ food = ['banana', 'apple', 'orange', 'pear']
 total =  compute_bill(shopping_list)
 print(total)
 if(total>0):
+if total<=5:
+       disc = total*0.05
+    elif total<=15:
+        disc=total*0.12
